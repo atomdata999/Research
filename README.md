@@ -1,6 +1,6 @@
 # Research
 TCP AMP / TCP REFLECTION / UDP AMPLFICATION
-
+DROPPING COMPILED VERSIONS NO BACKDOOR YOU CAN CHECK.
 
 
 
@@ -31,6 +31,7 @@ zmap -p 80 -w path.lst -o p2ath.txt
 zmap -p 443 -w path.lst -o p2ath2.txt
 zmap -p 22 -w path.lst -o p2ath3.txt
 cat p2* | sort | uniq >> pathnewreflectors.txt
+https://www.browserling.com/tools/ip-to-dec use this to convert ips
 
 Method POC
 set dest to most used tcp application on hosting your trying to target
@@ -56,3 +57,10 @@ reflector count:100k +
 
 ----UDP AMPLFICATION----
 ipsec 2nd port 4500 same payload same amp factor
+dns 53 filter 2000 byte resp size gets best output
+stun wsd gets through some ovhs 
+ipsec-2 4500 gets through ovh
+VSE TSOURCE ENGINE QUERY HITS ROBLOX and other games including r6
+afs is good for games also
+mssql is good for most games
+snmp for choopas and cod
