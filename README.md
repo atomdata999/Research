@@ -52,3 +52,7 @@ payload:1-10 bytes
 flags: ack
 my average byte resp 40 to 60k bytes
 reflector count:100k + 
+
+
+----UDP AMPLFICATION----
+ipsec 2nd port 4500 same payload same amp factor
